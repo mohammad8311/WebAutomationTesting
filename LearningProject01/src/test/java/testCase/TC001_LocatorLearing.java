@@ -51,6 +51,21 @@ public class TC001_LocatorLearing extends DriverSetup {
 		driver.findElement(By.xpath("//input[@type='text'][3]")).sendKeys("123456");
 		Thread.sleep(2000);
 		
+		driver.findElement(By.cssSelector(".reset-pwd-btn")).click();
+		driver.findElement(By.xpath("//div[@class='forgot-pwd-btn-conainer']/button[1]")).click();
+		Thread.sleep(2000);
+		
+		
+		driver.findElement(By.cssSelector("#inputUsername")).sendKeys("Didar");
+		driver.findElement(By.cssSelector("input[type*='pass']")).sendKeys("rahulshettyacademy");
+		
+		driver.findElement(By.id("chkboxOne")).click();
+		
+		driver.findElement(By.xpath("//button[contains(@class,'submit')]")).click();
+		
+		Thread.sleep(2000);
+		
+		
 		//Tagname[@attribute='value']
 		/* 
 			//relative xpath < // means relatove xpath
