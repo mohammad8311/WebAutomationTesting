@@ -5,7 +5,9 @@ import org.testng.annotations.Test;
 
 import base.DriverSetup;
 
-public class TC001_LocatorLearing extends DriverSetup {
+
+//Locator practice basic
+public class TC001 extends DriverSetup {
 	
 	@Test
 	public void locatorLearning() throws InterruptedException
