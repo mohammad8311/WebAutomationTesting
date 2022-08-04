@@ -1,4 +1,4 @@
-package PP01.LearningProject01;
+package PP01.SeleniumProject01;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
