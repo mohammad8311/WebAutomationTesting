@@ -22,7 +22,7 @@ public class TC002 extends DriverSetup{
 				
 
 		//Find out element by id
-		driver.findElement(By.id("inputUsername")).sendKeys("Marry");
+		driver.findElement(By.id("inputUsername")).sendKeys("didar");
 		Thread.sleep(2000);
 		
 		driver.findElement(By.name("inputPassword")).sendKeys("Password");
