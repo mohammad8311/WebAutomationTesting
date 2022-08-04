@@ -1,29 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-03T18:06:30 BDT" name="Default suite" finished-at="2022-08-03T18:06:50 BDT" duration-ms="19457">
+  <suite started-at="2022-08-04T17:39:32 BDT" name="Default suite" finished-at="2022-08-04T17:39:48 BDT" duration-ms="16127">
     <groups>
     </groups>
-    <test started-at="2022-08-03T18:06:30 BDT" name="Default test" finished-at="2022-08-03T18:06:50 BDT" duration-ms="19457">
-      <class name="testCase.TC003">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.TC003@4310d43]" started-at="2022-08-03T18:06:25 BDT" name="setup" finished-at="2022-08-03T18:06:30 BDT" duration-ms="5956" status="PASS">
+    <test started-at="2022-08-04T17:39:32 BDT" name="Default test" finished-at="2022-08-04T17:39:48 BDT" duration-ms="16127">
+      <class name="testCase.TC004">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.TC004@26e356f0]" started-at="2022-08-04T17:39:26 BDT" name="setup" finished-at="2022-08-04T17:39:32 BDT" duration-ms="5614" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyPageTitle_ShoudBePass()[pri:1, instance:testCase.TC003@4310d43]" started-at="2022-08-03T18:06:31 BDT" name="verifyPageTitle_ShoudBePass" finished-at="2022-08-03T18:06:50 BDT" duration-ms="19349" status="PASS">
+        <test-method signature="CheckBoxRadioButtonWidgets()[pri:0, instance:testCase.TC004@26e356f0]" started-at="2022-08-04T17:39:32 BDT" name="CheckBoxRadioButtonWidgets" finished-at="2022-08-04T17:39:48 BDT" duration-ms="16044" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyPageTitle_ShoudBePass -->
-        <test-method signature="WebsiteSecurityStatus()[pri:2, instance:testCase.TC003@4310d43]" started-at="2022-08-03T18:06:50 BDT" name="WebsiteSecurityStatus" finished-at="2022-08-03T18:06:50 BDT" duration-ms="18" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- WebsiteSecurityStatus -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC003@4310d43]" started-at="2022-08-03T18:06:50 BDT" name="tearDown" finished-at="2022-08-03T18:06:50 BDT" duration-ms="371" status="PASS">
+        </test-method> <!-- CheckBoxRadioButtonWidgets -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC004@26e356f0]" started-at="2022-08-04T17:39:48 BDT" name="tearDown" finished-at="2022-08-04T17:39:48 BDT" duration-ms="183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCase.TC003 -->
+      </class> <!-- testCase.TC004 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
