@@ -35,7 +35,7 @@ public class Browser {
 		driver.get("https://google.com");
 		String orginalWindow = driver.getWindowHandle();
 		
-		/*
+		
 		driver.navigate().to("http://facebook.com");
 		
 		System.out.println(driver.getCurrentUrl());
@@ -91,7 +91,7 @@ public class Browser {
 		WebElement element = driver.findElement(By.cssSelector(".lnXdpd"));
 		File srcFile1 = element.getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(srcFile1, new File("./ImageSrc2.png"));
-		*/
+		
 		
 		JavascriptExecutor jse = (JavascriptExecutor)driver;
 		
